@@ -2,14 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import { QuickProvider } from './quick-context/quickContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <QuickProvider>
-      <App />
-    </QuickProvider>
+    <App />
   </React.StrictMode>
 );
 
